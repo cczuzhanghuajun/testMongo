@@ -6,7 +6,6 @@ import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 
-
 public class TestMongo {
 
 	public static void main(String[] args) {
@@ -17,7 +16,6 @@ public class TestMongo {
 	        Document doc = collection.find().first();
 	        System.out.println(doc.toJson());
 	    }
-
 	}
 
 }
